@@ -58,5 +58,24 @@ public class Main {
     int totalWiteCans=totalClasses*perClassWiteCans;
     int totalClassBownCans=totalClasses*perClassBownCans;
     System.out.println("В школе, где "+totalClasses+ " классов, нужно "+totalWiteCans+" банок белой краски и "+totalClassBownCans+" банок коричневой краски");
+
+    //task 6
+    System.out.println("Задача 6");
+    //ингридиенты завтрака
+    short bananasCount=5;
+    short oneBananaWeight=80;//gr
+    short milkVolume=2;// по 100 мл
+    short onehundredMlMilkWeight=105;//gr
+    short icecreamCount=2;//брикета пломбира
+    short oneIcecreamWeight=100;//gr
+    short eggsCount=4;
+    short oneEggWeight=70;//gr
+    int totalBananasWeight=bananasCount*oneBananaWeight;
+    int totalMilkWeight=milkVolume*onehundredMlMilkWeight;
+    int totalIcecreamWeight=icecreamCount*oneIcecreamWeight;
+    int totalEggsWeight=eggsCount*oneEggWeight;
+    int totalBreakfastWeight=totalEggsWeight+totalBananasWeight+totalIcecreamWeight+totalMilkWeight;
+    float totalBreakfastWeightInKg=totalBreakfastWeight/1000F;
+    System.out.println("Вес такого спорт-завтрака равен "+totalBreakfastWeightInKg+" кг!");
     }
 }
