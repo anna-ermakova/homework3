@@ -34,6 +34,7 @@ public class Main {
     short allSheetsCount=480;
     int allClass=firstClass+seсondClass+thirdClass;
     System.out.println("На каждого ученика рассчитано "+allSheetsCount/allClass+" листов бумаги");
+
     //task 4
     System.out.println("Задача 4");
     int bottleСount=16;//productivity in 2 minutes
@@ -47,5 +48,15 @@ public class Main {
     System.out.println("За "+threeDays+" минут машина произвела бутылок "+bottleСount*threeDays+" штук");
     int oneMonth=perDay*30;
     System.out.println("За "+oneMonth+" минут машина произвела бутылок "+bottleСount*oneMonth+" штук");
+
+    //task 5
+    System.out.println("Задача 5");
+    int totalCans=120;
+    byte perClassWiteCans=2;
+    byte perClassBownCans=4;
+    int totalClasses=totalCans/(perClassWiteCans+perClassBownCans);
+    int totalWiteCans=totalClasses*perClassWiteCans;
+    int totalClassBownCans=totalClasses*perClassBownCans;
+    System.out.println("В школе, где "+totalClasses+ " классов, нужно "+totalWiteCans+" банок белой краски и "+totalClassBownCans+" банок коричневой краски");
     }
 }
