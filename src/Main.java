@@ -77,5 +77,15 @@ public class Main {
     int totalBreakfastWeight=totalEggsWeight+totalBananasWeight+totalIcecreamWeight+totalMilkWeight;
     float totalBreakfastWeightInKg=totalBreakfastWeight/1000F;
     System.out.println("Вес такого спорт-завтрака равен "+totalBreakfastWeightInKg+" кг!");
+
+    //task 7
+    System.out.println("Задача 7");
+    byte needToLoseWeight=7;//kg
+    int needToLoseWeightGr=needToLoseWeight*1000;//gr
+    int weightLossPerDayVar1=250;//gr
+    int weightLossPerDayVar2=500;//gr
+    System.out.println("Если каждый день терять вес по "+weightLossPerDayVar1+" гр, то для достижения нужного веса понадобится "+needToLoseWeightGr/weightLossPerDayVar1+" дней.");
+    System.out.println("Если каждый день терять вес по "+weightLossPerDayVar2+" гр, то для достижения нужного веса понадобится "+needToLoseWeightGr/weightLossPerDayVar2+" дней.");
+    System.out.println("В среднем понадобится "+(needToLoseWeightGr/weightLossPerDayVar1+needToLoseWeightGr/weightLossPerDayVar2)/2+" дней.");
     }
 }
