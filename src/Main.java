@@ -34,5 +34,18 @@ public class Main {
     short allSheetsCount=480;
     int allClass=firstClass+seсondClass+thirdClass;
     System.out.println("На каждого ученика рассчитано "+allSheetsCount/allClass+" листов бумаги");
+    //task 4
+    System.out.println("Задача 4");
+    int bottleСount=16;//productivity in 2 minutes
+    bottleСount=bottleСount/2;
+    System.out.println("Производительность машины за 1 мин-"+bottleСount+" бутылок");
+    byte twentyMinutes=20;
+    System.out.println( "За "+twentyMinutes+" минут машина произвела бутылок "+bottleСount*twentyMinutes+" штук");
+    short perDay=60*24;
+    System.out.println( "За "+perDay+" минут машина произвела бутылок "+bottleСount*perDay+" штук");
+    int threeDays=perDay*3;
+    System.out.println("За "+threeDays+" минут машина произвела бутылок "+bottleСount*threeDays+" штук");
+    int oneMonth=perDay*30;
+    System.out.println("За "+oneMonth+" минут машина произвела бутылок "+bottleСount*oneMonth+" штук");
     }
 }
