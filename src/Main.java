@@ -87,5 +87,27 @@ public class Main {
     System.out.println("Если каждый день терять вес по "+weightLossPerDayVar1+" гр, то для достижения нужного веса понадобится "+needToLoseWeightGr/weightLossPerDayVar1+" дней.");
     System.out.println("Если каждый день терять вес по "+weightLossPerDayVar2+" гр, то для достижения нужного веса понадобится "+needToLoseWeightGr/weightLossPerDayVar2+" дней.");
     System.out.println("В среднем понадобится "+(needToLoseWeightGr/weightLossPerDayVar1+needToLoseWeightGr/weightLossPerDayVar2)/2+" дней.");
+
+    //task 8
+    System.out.println("Задача 8");
+    double salaryMashas=67760;
+    double salaryDenises=83690;
+    double salaryKristinas=76230;
+    double salaryForTheYearMashas=salaryMashas*12;
+    double salaryForTheYearDenis=salaryDenises*12;
+    double salaryForTheYearKristina=salaryKristinas*12;
+    double payRise=10;//%
+    double newSalaryMashas=salaryMashas/100*payRise+salaryMashas;
+    double newSalaryDenis=salaryDenises/100*payRise+salaryDenises;
+    double newSalaryKristinas=salaryKristinas/100*payRise+salaryKristinas;
+    double newSalaryForTheYearMashas=newSalaryMashas*12;
+    double newSalaryForTheYearDenis=newSalaryDenis*12;
+    double newSalaryForTheYearKristina=newSalaryKristinas*12;
+    System.out.println("Новая зарплата Маши "+newSalaryMashas+" рублей.");
+    System.out.println("Новая зарплата Дениса "+newSalaryDenis+" рублей.");
+    System.out.println("Новая зарплата Кристины "+newSalaryKristinas+" рублей.");
+    System.out.println("Маша теперь получает "+newSalaryMashas+" рублей. Годовой доход вырос на "+(newSalaryForTheYearMashas-salaryForTheYearMashas)+" рублей.");
+    System.out.println("Денис теперь получает "+newSalaryDenis+" рублей. Годовой доход вырос на "+(newSalaryForTheYearDenis-salaryForTheYearDenis)+" рублей.");
+    System.out.println("Кристина теперь получает "+newSalaryKristinas+" рублей. Годовой доход вырос на "+(newSalaryForTheYearKristina-salaryForTheYearKristina)+" рублей.");
     }
 }
